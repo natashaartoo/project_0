@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced_search</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/icon" href="img/google_favicon.ico">
+</head>
+<body>
+    
+    <section class="section_adv">
+        <div class="container_adv">
+
+            <header class="nav_bar_adv">
+                <a href="index.html">Google</a>
+            </header>
+
+            <div class="label_adv">
+                <label>Advanced Search</label>               
+            </div>
+
+            <div class="line_decor"></div>
+
+            <div class="search_box_adv">
+                <form action="https://www.google.com/search" target="_blank">
+                    <div class="form_container_adv">
+                        <div class="query_box_adv query_title">
+                            <div class="label">
+                                <div class="table-cell">
+                                    <span style="font-size: 16px;">Find pages with...</span>
+                                </div> 
+                            </div>
+                            <div class="input">
+                                <input style="visibility: hidden;">
+                            </div>
+                        </div>
+
+                        <div class="query_box_adv">
+                            <div class="label">
+                                <div class="table-cell">
+                                    <label for="atw">all these words:</label>
+                                </div>         
+                            </div>
+                            <div class="input">
+                                <input class="text_input" autofocus="autofocus" id="atw" name="as_q" type="text">
+                            </div>
+                        </div>
+
+                        <div class="query_box_adv">
+                            <div class="label">
+                                <div class="table-cell">
+                                    <label for="tewof">this exact word or phrase:</label>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <input class="text_input" id="tewof" name="as_epq" type="text">
+                            </div>
+                        </div>
+
+                        <div class="query_box_adv">
+                            <div class="label">
+                                <div class="table-cell">
+                                    <label for="aotw">any of these words:</label>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <input class="text_input" id="aotw" name="as_oq" type="text">
+                            </div>
+                        </div>
+
+                        <div class="query_box_adv">
+                            <div class="label">
+                                <div class="table-cell">
+                                    <label for="notw">none of these words:</label>
+                                </div>
+                            </div>
+                            <div class="input">
+                                <input class="text_input" id="notw" name="as_eq" type="text">
+                            </div> 
+                        </div> 
+
+                        <div class="query_box_adv container_btn">
+                            <div class="label">
+                                <label ></label>
+                            </div>
+                            <div class="input">
+                                <input class="search_btn" type="submit" value="Google Search">
+                            </div> 
+                        </div>    
+                        
+                    </div>                  
+                </form>
+            </div>
+        </div>  
+    </section>
+</body>
+</html>
